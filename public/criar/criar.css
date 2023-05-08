@@ -34,8 +34,21 @@ div#botoes input{
     height: 30px;
     text-decoration: none;
 }
+a{
+    width: 15%;
+    border: 1px solid #39ff14;
+    color: #39ff14;
+    background-color: black;
+    height: 30px;
+    text-decoration: none;
+}
 
 div#botoes input:hover{
+    background-color: white;
+    color: #1a540f;
+}
+
+a:hover{
     background-color: white;
     color: #1a540f;
 }
