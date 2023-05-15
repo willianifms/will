@@ -16,6 +16,7 @@ div#card{
     padding-left: 30px;
     margin-top: 25px;
     margin-right: 10px;
+    padding: 7px;
 }
 div#card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -48,4 +49,14 @@ li a
 li a:hover {
     background-color: rgb(47, 45, 45);
     color: #39ff14;
+}
+
+#aaaa{
+    border: solid red 2px;
+    color:red;
+}
+
+#aaaa:hover{
+    border: solid white 2px;
+    color:white;
 }
