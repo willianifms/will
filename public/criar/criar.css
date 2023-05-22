@@ -1,26 +1,29 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+
 }
 form{
-    color: white;
+    color: black;
     text-align: center;
 }
 div#formu{
     margin-top: 1%;
     padding-top: 15%;
     padding-bottom: 17%;
-    border-top: 1px solid #39ff14;
-    border-bottom: 1px solid #39ff14;
+    box-shadow: #c0c0c0;
     text-align: center;
 }
 input{
     width: 30%;
     height: 30px;
-    border: 1px solid #39ff14;
-    color: #39ff14;
-    background-color: black;
+    border: 1px solid #c0c0c0;
+    color: #000000;
+    
+}
+
+button a{
+    color: #020202;
 }
 
 
@@ -28,17 +31,19 @@ input{
 
 div#botoes input{
     width: 15%;
-    border: 1px solid #39ff14;
-    color: #39ff14;
-    background-color: black;
+    box-shadow: #020202;
+    color: white;
+    background-color: #414141;
     height: 30px;
     text-decoration: none;
+   
+   
 }
 .a{
     width: 15%;
-    border: 1px solid #39ff14;
-    color: #39ff14;
-    background-color: black;
+    box-shadow: #020202;
+    color: #020202;
+    background-color: #414141;
     height: 30px;
     text-decoration: none;
     text-decoration: none;
@@ -46,18 +51,19 @@ div#botoes input{
 
 div#botoes input:hover{
     background-color: white;
-    color: #1a540f;
+    color: #020202;
 }
 
 .a:hover{
     background-color: white;
-    color: #1a540f;
+    color: #020202;
 }
 h1{
-    color:#39ff14;
+    color:#020202;
 }
 
 #botoes button a{
     text-decoration: none;
-    color: #39ff14;
+    color: white;
 }
+
